@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
     <div>
-      {/* <img src="background.png" alt="" /> */}
+      <img src="background.png" alt="" />
     </div>
     <div className="header" >
       <div className='nk-contacts-hrefp' >
@@ -38,7 +38,7 @@ const Navbar = () => {
             </div>
 
             <div className='nk-contacts-Right '>
-                <div className='nk-contacts-Icons d-flex'>
+                <div className='nk-contacts-Icons d-flex col-md-12'>
                   <a href="#">
                     <i className="fa fa-user" style={{ fontSize: "15px" }}></i>
                   </a>

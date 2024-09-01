@@ -1,18 +1,19 @@
 /* * ::after, ::before {
   box-sizing: border-box;
 } */
-img{
-  width: 100%;
-  background-size: auto;
-  background-repeat: no-repeat; 
-  
+img {
+  width: 100%; /* Ensures the image stretches across the entire width of its container */
+  display: block; /* Removes any potential inline spacing below the image */
+  margin: 0 auto; /* Centers the image horizontally if it's within a smaller container */
 }
-.header
-{
-  
-  top: 0%;
-  left: 0%;
+
+.header {
+  position: absolute; /* or 'absolute', 'fixed', 'sticky' depending on your layout needs */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures the header stretches across the entire width */
 }
+
   /* transform: translate(-50%, -50%);
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.5);
@@ -96,6 +97,7 @@ img{
 /* } */
 .nk-contacts-Icons{
   justify-content: right !important;
+  top: 0% !important;
 }
 i {
   
