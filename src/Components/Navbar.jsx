@@ -37,8 +37,8 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className='nk-contacts-Right '>
-                <div className='nk-contacts-Icons d-flex col-md-12'>
+            <div className='nk-contacts-Right  col-md-4 text-right '>
+                <div className='nk-contacts-Icons '>
                   <a href="#">
                     <i className="fa fa-user" style={{ fontSize: "15px" }}></i>
                   </a>
@@ -53,10 +53,27 @@ const Navbar = () => {
                 </div>
               </div>
           </div>
-
        </div>
     </div>
+     <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+        <div className="container-fluid">
+          <a className="navbar-brand" to="/">
+            <img src="logo.svg" style={{ width: "", height: "35px" }} alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+              </button>
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <a className="nav-link active" aria-current="page" href="/">Home</a>
+              <a className="nav-link" href="/">Features</a>
+              <a className="nav-link" href="/">About</a>
+            </div>
+          </div>
+        </div>
+      </nav>
      </div>
+   
+
     </>
   )
 }
