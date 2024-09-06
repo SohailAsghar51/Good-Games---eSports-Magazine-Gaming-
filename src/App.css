@@ -136,3 +136,37 @@ i:hover {
 /* } */ 
 
 
+.carousel{
+  padding: 30px;
+}
+/* Style for the carousel to ensure images cover the entire width and height */
+.carousel-inner {
+  object-fit: cover;  /* Ensures the image covers the entire area without stretching */
+  height: 68vh;      /* Adjust this value depending on the height you want */
+  width: 100%;        /* Ensure it takes the full width of the carousel */
+  border-radius: 8px;
+  position: relative;
+overflow: hidden;
+border-bottom: 3px solid #dd163b;
+border-radius: 4px;
+}
+
+/* Center the carousel content vertically if you have text or captions */
+.carousel-inner {
+  position: relative;
+  display:block;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: Style the carousel to remove the default border or add a shadow */
+.carousel {
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Example shadow */
+}
+
+/* Optional: Add transition effects */
+.carousel-item {
+  transition: transform 0.5s ease-in-out;  /* Smooth slide effect */
+}
+

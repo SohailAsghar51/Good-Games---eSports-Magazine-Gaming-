@@ -10,9 +10,9 @@ function App() {
   <>
  <Router>
       <Navbar AboutText="About US" Home="sohail" />
-      <Home/>
+      
       <Routes>
-        {/* <Route path="/" element={<Home/>} /> */}
+        <Route path="/" element={<Home/>} />
       </Routes>
     </Router>
   </>
