@@ -1,11 +1,10 @@
 import React from 'react'
+import Home from './Home'
 
 const Navbar = () => {
   return (
     <>
-    <div>
-      <img src="background.png" alt="" />
-    </div>
+   
     <div className="header" >
       <div className='nk-contacts-hrefp' >
         <div className='container'>

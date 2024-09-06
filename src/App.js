@@ -2,13 +2,19 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import './App.css';
 import Navbar from './Components/Navbar';
+import Home from './Components/Home';
 
 function App() {
   return (
     
   <>
-  
-  <Navbar AboutText="About US" Home="sohail"/>
+ <Router>
+      <Navbar AboutText="About US" Home="sohail" />
+      <Home/>
+      <Routes>
+        {/* <Route path="/" element={<Home/>} /> */}
+      </Routes>
+    </Router>
   </>
   );
 }
