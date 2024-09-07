@@ -23,7 +23,7 @@ justify-content-center>
   <div class="col-md-4">
     <div class="nk-feature-1">
       <div class="nk-feature-icon">
-      <img src="icon-mouse.svg" alt=""/>
+      <img src="icon-mouse.svg" alt=""/> 
 </div>
       <div class="nk-feature-cont">
       <h3 class="nk-feature-title"><a href="#">PC</a></h3>
