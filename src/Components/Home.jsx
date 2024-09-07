@@ -17,18 +17,55 @@ justify-content-center>
     </div>
   </div>
 </div>
-<div className='row'>
 
-{/* <div class="card w-50"> 
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn ">Button</a>
-  </div>
-</div>
-</div> */}
-</div>
 
+<div className='row vertical-gap'>
+  <div class="col-md-4">
+    <div class="nk-feature-1">
+      <div class="nk-feature-icon">
+      <img src="icon-mouse.svg" alt=""/>
+</div>
+      <div class="nk-feature-cont">
+      <h3 class="nk-feature-title"><a href="#">PC</a></h3>
+      <h4 class="nk-feature-title text-main-1"><a href="#">View Games</a></h4>
     </div>
-  )
+  </div>
+ </div>
+
+      
+  <div class="col-md-4">
+    <div class="nk-feature-1">
+      <div class="nk-feature-icon">
+      <img src="icon-gamepad.svg" alt=""/>
+</div>
+      <div class="nk-feature-cont">
+      <h3 class="nk-feature-title"><a href="#">PS4</a></h3>
+      <h4 class="nk-feature-title text-main-1"><a href="#">View Games</a></h4>
+    </div>
+  </div>
+ </div>
+ <div class="col-md-4">
+    <div class="nk-feature-1">
+      <div class="nk-feature-icon">
+      <img src="icon-gamepad-2.svg" alt=""/>
+</div>
+      <div class="nk-feature-cont">
+      <h3 class="nk-feature-title"><a href="#">XBOX</a></h3>
+      <h4 class="nk-feature-title text-main-1"><a href="#">View Games</a></h4>
+    </div>
+  </div>
+ </div>
+</div>
+
+<div className='row'>
+<div className='nk-decorated-h-2 col-md-1' ></div>
+<h3 class="nk-decorated-h col-md-3">
+  <span><span class="text-main-1">Latest</span> News</span></h3>
+  <div className='nk-decorated-h-2 col-md-8 '></div>
+</div>
+
+</div>
+
+
+  )  
 }

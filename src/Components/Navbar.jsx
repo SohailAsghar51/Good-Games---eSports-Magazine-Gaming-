@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="header" >
       <div className='nk-contacts-hrefp' >
         <div className='container'>
-          <div className='row '>
+          <div className='row'>
 
             <div className='nk-contacts-left col-md-8'>
               <div className='nk-social-links'>
@@ -35,7 +35,6 @@ const Navbar = () => {
                 </ul>
               </div>
             </div>
-
             <div className='nk-contacts-Right  col-md-4 text-right '>
                 <div className='nk-contacts-Icons '>
                   <a href="#">
@@ -44,16 +43,18 @@ const Navbar = () => {
                   <a href="#">
                     <i className="fa fa-search" style={{ fontSize: "15px" }}></i>
                   </a>
-                  <a href="#">
+                  <a href="">
                     <i className="fa fa-shopping-cart" style={{ fontSize: "15px" }}>
                       <span className="nk-badge">27</span>
                     </i>
                   </a>
                 </div>
               </div>
-          </div>
        </div>
     </div>
+            </div>
+    <div className='row'>
+
      <nav className="navbar navbar-expand-lg navbar-light bg-light ">
         <div className="container-fluid">
           <a className="navbar-brand" to="/">
@@ -70,7 +71,9 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-     </div>
+          </div>
+    </div>
+   
    
 
     </>

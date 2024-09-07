@@ -6,7 +6,10 @@
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px; */
+body{
+  font-family:  sans-serif;
 
+}
 
 
 
@@ -142,13 +145,11 @@ i:hover {
 /* Style for the carousel to ensure images cover the entire width and height */
 .carousel-inner {
   object-fit: cover;  /* Ensures the image covers the entire area without stretching */
-  height: 68vh;      /* Adjust this value depending on the height you want */
+        /* Adjust this value depending on the height you want */
   width: 100%;        /* Ensure it takes the full width of the carousel */
   border-radius: 8px;
   position: relative;
-overflow: hidden;
-border-bottom: 3px solid #dd163b;
-border-radius: 4px;
+
 }
 
 /* Center the carousel content vertically if you have text or captions */
@@ -157,16 +158,64 @@ border-radius: 4px;
   display:block;
   justify-content: center;
   align-items: center;
+  
 }
 
-/* Optional: Style the carousel to remove the default border or add a shadow */
-.carousel {
-  border: none;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Example shadow */
-}
 
 /* Optional: Add transition effects */
 .carousel-item {
   transition: transform 0.5s ease-in-out;  /* Smooth slide effect */
+  overflow: hidden;
+border-bottom: 3px solid #dd163b;
+border-radius: 4px;
 }
 
+
+/* Home page start css>>>>>>>>>>>>>>> */
+
+  
+
+.text-main-1 a{
+  color:red ;
+}
+.text-main-1{
+  color: #dd163b;
+}
+h3 a{
+  color: #fff !important;
+}
+.nk-feature-1 .nk-feature-icon, .nk-feature-2 .nk-feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 50px;
+  padding-right: 10px;
+  font-size: 3rem;
+  line-height: 50px;
+  color: #fff !important;
+  text-align: center;
+  border-radius: 3px;
+  
+}
+.nk-feature-1, .nk-feature-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  padding: 1px;
+  background-color: #292e38;
+  border-radius: 4px;
+  margin: 10px;
+}
+.nk-decorated-h-2 {
+  content: "";
+  display: flex;
+  /* flex: 100; */
+  border-bottom: 6px solid;
+  transform: translateY(-19px);
+}
+span{
+  color: #fff;
+}
