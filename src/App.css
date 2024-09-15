@@ -16,6 +16,7 @@ body{
 
 .navbar, .nnavbar.navbar-solid {
   background-color: rgba(0, 0, 0, .6) !important;
+  width: 100% !important;
 }
 .navbar {
   position: relative;
@@ -139,14 +140,25 @@ i:hover {
 /* } */ 
 
 
+
+
+
+/* Home page start css>>>>>>>>>>>>>>> */
+.container{
+margin-left: px;
+}
+
 .carousel{
   padding: 30px;
+  justify-content: center !important;
+
+
 }
 /* Style for the carousel to ensure images cover the entire width and height */
 .carousel-inner {
   object-fit: cover;  /* Ensures the image covers the entire area without stretching */
         /* Adjust this value depending on the height you want */
-  width: 100%;        /* Ensure it takes the full width of the carousel */
+  width: 103%;        /* Ensure it takes the full width of the carousel */
   border-radius: 8px;
   position: relative;
 
@@ -156,7 +168,7 @@ i:hover {
 .carousel-inner {
   position: relative;
   display:block;
-  justify-content: center;
+  justify-content: center !important;
   align-items: center;
   
 }
@@ -171,15 +183,13 @@ border-radius: 4px;
 }
 
 
-/* Home page start css>>>>>>>>>>>>>>> */
 
   
 
+
 .text-main-1 a{
-  color:red ;
-}
-.text-main-1{
   color: #dd163b;
+  text-decoration: none;
 }
 h3 a{
   color: #fff !important;
@@ -193,7 +203,7 @@ h3 a{
   padding-right: 10px;
   font-size: 3rem;
   line-height: 50px;
-  color: #fff !important;
+  color: #fff7f7 !important;
   text-align: center;
   border-radius: 3px;
   
@@ -216,6 +226,128 @@ h3 a{
   border-bottom: 6px solid;
   transform: translateY(-19px);
 }
+.nk-feature-title{
+  text-decoration: none !important;
+}
 span{
   color: #fff;
 }
+
+a{
+  text-decoration: none !important;
+}
+
+
+/* lastNews page css start>>>>>>>>>>>>>> */
+.card{
+  width: 25%;
+  background-color:transparent;
+}
+/* Image styles */
+.card-img-top {
+  width: 100%;
+  height: auto;
+  transition: transform .15s ease-in-out;
+  transform: scale(1);
+  will-change: transform;
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* Apply zoom on the entire card hover */
+.card:hover .card-img-top {
+  transform: scale(1.03); /* Zoom effect when hovering over the card */
+}
+
+
+
+
+.card-title{
+  color: #fff;
+}
+.card-title:hover{
+  color: #dd163b;
+  
+}
+p{
+  color:#a0a7ab;
+  font-family:sans-serif;
+  font-size: 12px;
+  letter-spacing:.015em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7;
+}
+.nk-btn-color{
+background-color: #292e38;
+}
+.nk-btn-color:hover{
+  background-color: #dd163b;
+}
+.nk-btn{
+  display: inline-block;
+  padding: 9px 19px !important;
+  font-family: Montserrat, sans-serif;
+  font-size: .87rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: aliceblue;
+}
+.nk-btn:hover{
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+.card-img-top .nk-post-categories span:first-of-type {
+top:0%;
+}
+.bg-main-6{
+  background-color:#007bff!important
+}
+.bg-main-7{
+  background-color: #ef9e2b!important;
+}
+.bg-main-2{
+  background-color: #a714b9!important;
+}
+.nk-post-categories span {
+  display: inline-block;
+  padding: 2px 19px;
+  margin-top: 6px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #2f3541;
+  border-radius: 4px;
+}
+
+
+
+
+/* Style the image to fit the container */
+.card-img-top {
+  
+  width: 100%;
+  height: auto;
+}
+
+/* Style the category label */
+.nk-post-categories {
+  display:block;
+  position: absolute; /* Position it absolutely within the relative container */
+  top: 5px; /* Distance from the top */
+  left: 3px; /* Distance from the left */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 12px; /* Font size */
+  z-index: 1; /* Ensure it stays on top of the image */
+}
+
